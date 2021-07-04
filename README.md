@@ -16,3 +16,11 @@ Wrote script to increase the tickerIndex if the next row’s ticker doesn’t ma
 ## Results
 As displayed in the two screenshots, refactoring did make the process run more efficiently with less time used
 
+## Summary
+### Pros and Cons about code refactoring in general
+Pros: it can significantly enhance system performance, saving system run time due to its simplicity; it helps minimize the time and resources needed to detect and fix bugs; it allows us to modify the system to adapt to new business needs.
+Cons: time-consuming. It takes extended hours to refactor projects. It's usually easier to build new codes for a system from scratch.
+
+### Pros and Cons of the original and refactored VBA script
+Pros: the refactored VBA script uses a tickerIndex to loop through the data which has saved time for the process.
+Cons: the new script is more complicated with notes added and errors could easily occur during the refactoring process, which takes time to fix.
